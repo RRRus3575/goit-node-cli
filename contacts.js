@@ -9,7 +9,7 @@ import { nanoid } from 'nanoid';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const contactsPath = path.join(__dirname, "db", "contacts.json");
-const {encoding } = await DetectFileEncodingAndLanguage(contactsPath)
+const { encoding } = await DetectFileEncodingAndLanguage(contactsPath)
 
 
 export async function listContacts() {
