@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index"
-    
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "description": "",
   "dependencies": {
     "commander": "^13.1.0",
-    "detect-file-encoding-and-language": "^2.4.0"
+    "detect-file-encoding-and-language": "^2.4.0",
+    "nanoid": "^5.1.5"
   }
 }
